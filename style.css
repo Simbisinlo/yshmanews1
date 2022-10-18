@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+/***MENU****/
+.navbar .container .Menu-container li{
+    display: inline-block;
+}
+
+.navbar .container a{
+    color: white;
+}
+.navbar .container .Menu-container ul{
+    padding: 3px 10px;
+}
+
+.navbar .container .Menu-container li{
+    margin-left: 10px;
+}
+
+.Menu-container a:hover{
+    color: black;
+    transition: 0.8s;
+}
+/*********Traitement du Logo Gauche*******/
+.container .logo-container a{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .logo-container span{
+    color: red;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+/*********Traitement de la section 1****************/
+.section1{
+    height: 500px;
+    background: url(images/Image1.jpeg) center/cover;
+}
+
+.section1 .container2 {
+   padding-top: 280px;
+   padding-left: 180px;
+   color: black;
+}
+
+.section1 .container2 .text1{
+    font-size: 35px;
+ }
+ .section1 .container2 .text2{
+    font-size: 35px;
+    font-weight: 500;
+    color: blue;
+ }
+ .section1 .container2 .text3{
+    font-size: 27px;
+    font-weight: 500;
+    color: rgb(18, 1, 20);
+ }
+/********** BOUTON 1*******************/
+.section1 .container2 .bouton1 a{
+    border: 2px solid rgb(13, 14, 13); 
+    background-color: white;
+    padding: 10 px 25px;
+    border-radius: 10px; 
+ }
+
+ .section1 .container2 .bouton1{
+    margin-top: 20px;
+ }
+ .section1 .container2 .bouton1 a:hover{
+    background: none;
+ }
+ 
+ /******SECTION 2 ***************/
+
+ .section2 {
+    height: 600px;
+    padding: 10px;
+ }
+
+ .section2 h2{
+    color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline black;
+ }
+
+ .section2 > .container3{
+    display: flex;
+    padding: 15px 90px;
+ }
+
+ .contain-text{
+    margin-top: 45px;
+ }
+
+ .contain-text #p1{
+    font-size: 30px;
+    font-weight: 600px;
+ }
+
+ .contain-text #p1 span{
+    color: blueviolet;
+ }
+
+ .contain-text #p2{
+    text-align: justify;
+    font-size: 20px;
+ }
+
+ .container3 .contain-text .bouton2 a{
+    border:  2px solid blueviolet;
+    background-color: rosybrown;
+    color: beige;
+    font-size: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+ }
+
+ .container3 .contain-text .bouton2{
+    margin-top: 25px;
+ }
+
+ .container3 .contain-text .bouton2 a:hover{
+    background: none;
+    color: brown;
+ }
+/****************SECTION 3***********/
+
+ .section3{
+    height: 300px;
+    background-color: rgb(209, 96, 153);
+    padding: 50px 90px;
+    color: black;
+    border-radius: 5%;
+ }
+
+ .section3 > .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .section3 > .container4 > .card{
+    width: 450px;
+    height: 300px;
+    background: wheat;
+    margin: 10px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+ }
+
+ .section3 > .container4 > .card p{
+    text-align: center;
+ }
+
+ .section3 > .container4 > .card:hover{
+    background-color: rgb(218, 49, 105);
+ }

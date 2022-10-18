@@ -1,0 +1,89 @@
+
+body{
+    margin: 10px 80px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+nav{
+    display: flex;
+    margin-left: 10%;
+    color: blueviolet;
+
+}
+    
+
+nav h1{
+    font-family: 'Newsreader', serif;
+font-family: 'Pacifico', cursive;
+color: royalblue;
+text-transform: capitalize;
+}
+nav .onglet{
+    margin-top: 35px;
+}
+nav .onglet a{
+   text-decoration: none;
+   color:black;
+   margin-right: 10px;
+}
+
+.articles{
+    margin-top: 30px;
+    color: black;
+    text-align: justify;
+}
+
+.articles .article{
+   display: flex;
+   flex-wrap:wrap;
+   margin-bottom: 30px;
+}
+
+.articles .article .left img{
+    height: 300px;
+    width: 500px;
+}
+.articles .article .right{
+   max-width: 50%;
+   margin-left: 40px;
+}
+
+.articles .article .right p.description{
+    color: #125
+}
+/*******************FOOTER*****************/
+
+.section3{
+    height: 300px;
+    background-color: rgb(209, 96, 153);
+    padding: 50px 90px;
+    color: black;
+    border-radius: 5%;
+ }
+
+ .section3 > .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .section3 > .container4 > .card{
+    width: 450px;
+    height: 300px;
+    background: wheat;
+    margin: 10px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+ }
+
+ .section3 > .container4 > .card p{
+    text-align: center;
+ }
+
+ .section3 > .container4 > .card:hover{
+    background-color: rgb(218, 49, 105);
+ }
